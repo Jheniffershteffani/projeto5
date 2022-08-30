@@ -1,0 +1,27 @@
+.caixa {
+    border: dotted white 15px;
+    border-radius: 0px;
+    background-color: blueviolet;
+    height: 500px;
+    width: 500px;
+}
+
+@keyframes name {
+    from {
+        background-color: blue;
+        border-radius: 0px;
+    }
+
+    to {
+        background-color: brown;
+        border-radius: 70px;
+
+    }
+
+}
+
+.caixa:hover {
+    animation: name 500ms infinite;
+    text-align: center;
+    color: white;
+}

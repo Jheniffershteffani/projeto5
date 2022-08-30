@@ -6,6 +6,7 @@
     width: 500px;
 }
 
+
 @keyframes name {
     from {
         background-color: blue;
@@ -14,13 +15,13 @@
 
     to {
         background-color: brown;
-        border-radius: 70px;
+        border-radius: 100px;
 
     }
 
 }
 
-.caixa:hover {
+button:active+.caixa {
     animation: name 500ms infinite;
     text-align: center;
     color: white;
